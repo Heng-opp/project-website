@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    height: 1300px;
+    background-color: burlywood;
+}
+.container>.card{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 40px;
+    gap: 20px;
+}
+.container>.card>.box1{
+    width: 220px;
+    height: 230px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.card>.box2{
+    width: 370px;
+    height: 230px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.card1{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    gap: 20px;
+}
+.container>.card1>.box3{
+    width: 340px;
+    height: 357px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.card1>.Box1{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+}
+.container>.card1>.Box1>.box4{
+    width: 250px;
+    height: 160px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.card1>.Box1>.box5{
+    width: 250px;
+    height:180px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.card2{
+    width: 610px;
+    height: 400px;
+    background-color: chocolate;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,41 @@
+.box{
+    /* 
+        border-radius សម្រាប់សារេក្បាល់កុំឲ្យជ្រុង
+        border​ បន្ទាត់ជុំវិញbox
+        box-sizing: border-box; កុំឲ្យបន្ទាត់ជុំវិញវាចេញក្រៅ
+        box-shadow ស្រមោលខាងក្រោយ
+        margin-top:​គម្លាត់ពីលើទៅក្រោម
+        margin-left: គម្លាត់ពីឆ្វេងទៅស្តាំ
+        margin-bottom:គម្លាត់ពីក្រោមទៅលើ
+        margin-right: គម្លាត់ពីរស្តាំទៅឆ្វេង
+        padding សម្រាប់រង្គិលរបស់ដែលនៅក្នុងប្រអប់
+    */
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 12px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px purple;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 12px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px purple;
+    margin: 100px 300px 0px 900px;
+ /*margin : top  bottom left right*/
+    padding: 50px 50px 50px 50px;
+/*padding  :top bottom right left*/
+}

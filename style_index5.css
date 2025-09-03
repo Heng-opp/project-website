@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box1{
+    /* 
+        background-image: url  សម្រាប់ដាក់linkរូបភាព
+        background-size: contain;   កុំឲ្យរូបភាពរីកឬរួម
+    */
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    background-image: url(https://cdn.wallpapersafari.com/30/0/n0HOqk.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    background-image: url(https://cdn.wallpapersafari.com/30/0/n0HOqk.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

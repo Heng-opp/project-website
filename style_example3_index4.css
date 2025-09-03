@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+   width: 786px;
+    height: 250px;
+    background-color: dimgrey;
+}
+.card>p{
+    font-family: serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+.box{
+    width: 786px;
+    height: 150px;
+    border: 0px solid;
+    display: flex;
+}
+.box>.box1{
+    width: 160px;
+    height: 150px;
+    background-color: darkgray;
+    margin-left: 47px;
+    font-family: serif;
+    padding-left: 20px;
+    color: red;
+    padding-top: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+.box>.box2{
+    width: 500px;
+    height: 150px;
+    background-color: slategray;
+    padding-top: 25px;
+    padding-left: 7px;
+}
+.box>.box2>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box>.box2>p1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+    text-align: left;
+}
+.box3{
+    width: 786px;
+    height: 70px;
+    background-color: black;
+}
+.box3>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 300px;
+}

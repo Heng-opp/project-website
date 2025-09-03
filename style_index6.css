@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* 
+        -justify-content: space-evenly;  ជំនួសgapគឺឲ្យវាមានចន្លោះស្មើរគ្នា
+        -justify-content: space-between;​ ជាចន្លោះដែរ​ តែវាមិនមានចន្លោះនៅខាងកៀនទេ
+        -display: flex; ប្តូរឲ្យវានៅតែមួយជួរដេក
+        -flex-direction: column;​ប្តូរវាឲ្យនៅតែមួយជួរឈរវិញទើបអាចប្រើ-justify-contentអីបាន
+        -align-items: ;  រង្គិលទៅឆ្វេង​ ស្តាំ កណ្តាល ដូចmargin
+        -
+
+    */
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    border: solid blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   /* left right  តែបើប្រើflex-direction: column;ជាជួរឈរវិញ top bottom*/
+    align-items: center;            /* top battom  តែបើប្រើflex-direction: column;ជាជួរឈរវិញ left right*/
+}
+ .container>.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 12px;
+ }

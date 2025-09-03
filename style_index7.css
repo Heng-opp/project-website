@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    /* 
+        -display: inline; ប្រើដូចdisplay flexដែលដើម្បីឲ្យវានៅតែមួយជួរ
+        -display: inline-block; ប្រើសម្រាប់កាត់ទំហ៉ហើយអាចប្រើwidth and heightបាន
+    */
+    display: inline;
+    background-color: aqua;
+}
+h2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

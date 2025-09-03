@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7GqZmH5Pa5h4pN9aV5bq4O3scrWtW_YbuyzXXdmi8lTvz87rPRwJZqA2FRw6uMlH8Qg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 50%;
+    position: relative;
+}
+.profile>.status{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(5, 232, 5);
+    position: absolute;
+    left: 390px;
+    top: 350px;
+}

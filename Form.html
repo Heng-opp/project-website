@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+      -name="" សម្រាប់សម្គាល់ឈ្មោះនៅពេលបញ្ចេញតម្លៃ
+      -url សម្រាប់មញ្ចូលបានតែlinkប៉ុណ្ណោះ
+      -value="" សម្រាប់សរសេរអក្សរនៅលើនិងស្រាប
+      -required="" ប្រើដើម្បីឲ្យយើងបញ្ចូលតម្លៃ បើមិនបញ្ចូលមិនអាចsubmidបានទេ
+      -placeholder=""  អក្សរព្រាលបៅលើប្រអប់មុនពេលយើងសរសេរ
+      -button សម្រាប់បញ្ចូនទិន្ន័យ
+      -checked សម្រាប់ឲ្យវាគ្រឺសauto
+    -->
+    <form >
+        <input type="text" name="username" value="Hello" placeholder="Enter username"><br><br>
+        <input type="Number" required min="" max="" placeholder="Enter Number"><br><br>
+        <input type="email" required placeholder="Enter Email"><br><br>
+        <input type="password" required placeholder="Enter Password"><br><br>
+        <input type="search" required placeholder=" Search"><br><br>
+        <input type="tel" placeholder="Enter tel"><br><br>
+        <input type="url" placeholder="Enter Url"><br><br>
+
+
+        
+        <input type="file" multiple><br><br>
+        <input type="color"><br><br>
+        <input type="date"><br><br>
+        <input type="time"><br><br>
+        <input type="datetime-local"><br><br>
+        <input type="month"><br><br>
+        <input type="week"><br><br>
+        <input type="checkbox"checked><br><br>
+        <input type="radio"checked><br><br>
+
+        <input type="radio" name="gender">Male<br><br>
+        <input type="radio" name="gender">Female<br><br>
+        <input type="radio" name="gender">Other<br><br>
+        
+        <input type="range" value="50"><br><br>
+
+
+
+        <textarea placeholder="Enter Description" rows="10"cols="50"></textarea><br><br>
+        <select >
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="" selected>Javascript</option>
+            <option value="">Resct JS</option>
+        </select><br><br>
+
+
+        <button type="reset">Reset</button>
+        <button type="submid">submid</button>
+    </form>
+</body>
+</html>

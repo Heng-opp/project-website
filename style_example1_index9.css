@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card>.Box{
+    width: 400px;
+    height: 600px;
+    background-color: antiquewhite;  
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(5,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.card>.Box>.box1{
+    grid-area: 1/1/3/2;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.card>.Box>.box1>p{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card>.Box>.box1>p1{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.card>.Box>.box2{
+    grid-area: 2/2/4/3;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.card>.Box>.box2>p{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card>.Box>.box2>p1{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.card>.Box>.box3{
+    grid-area:3/1/5/2;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.card>.Box>.box3>p{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card>.Box>.box3>p1{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.card>.Box>.box4{
+    grid-area:4/2/6/3 ;
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.card>.Box>.box4>p{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card>.Box>.box4>p1{
+    width: 50px;
+    height: 30px;
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}

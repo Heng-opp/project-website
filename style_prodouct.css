@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fullbox{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullbox>.card{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0px;
+    border: 2px solid;
+}
+
+.fullbox>.card>.Box1{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    
+}
+.fullbox>.card>.Box1>.head{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullbox>.card>.Box1>.head>header{
+    font-size: 10px;
+}
+.fullbox>.card>.Box1>.head1{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fullbox>.card>.Box1>.head1>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.fullbox>.card>.Box1>.head1>ul>li{
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px dotted;
+}
+.fullbox>.card>.Box1>.head2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fullbox>.card>.Box1>.head2>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.fullbox>.card>.Box1>.Head{
+    display: flex;
+    gap: 30px;
+}
+.fullbox>.card>.Box1>.Head>.headimage{
+    width: 40%;
+    height: 300px;
+    
+}
+.fullbox>.card>.Box1>.Head>.headimage>img{
+    width: 100%;
+    height: 280px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+.fullbox>.card>.Box1>.Head>.headimage>.smallimg{
+    width: 100%;
+    height: 100px;
+    padding-left: 15px;
+    display: flex;
+    gap: 10px;
+}
+.fullbox>.card>.Box1>.Head>.headimage>.smallimg>img{
+    width: 70px;
+    height: 80px;
+    border-radius: 8px;
+}
+.fullbox>.card>.Box1>.Head>.letter{
+    width: 50%;
+    height: 350px;
+    margin-top: 15px
+}
+.fullbox>.card>.Box1>.Head>.letter>.le1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le1>p{
+    font-size: 20px;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le2>.but{
+    font-size: 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le2>.buts{
+    font-size: 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: antiquewhite;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le3{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le3>h1{
+    font-size: 15px;
+}
+.fullbox>.card>.Box1>.Head>.letter>ul{
+    padding-left: 38px;
+    margin-bottom: 15px
+}
+.fullbox>.card>.Box1>.Head>.letter>.le4{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.fullbox>.card>.Box1>.Head>.letter>.le4>p{
+    font-size: 15px;
+}
+.fullbox>.card>.Box2{
+    width: 100%;
+    height: 28%;
+    background-color: white;
+}
+.fullbox>.card>.Box2>h1{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.fullbox>.card>.Box2>.image{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.fullbox>.card>.Box2>.image>img{
+    width: 170px;
+    height: 185px;
+}
+.fullbox>.card>.Box2>.Name{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.fullbox>.card>.Box2>.Name>.name{
+    width: 20%;
+    height: 50px;
+    margin-left: 120px;
+}
+.fullbox>.card>.Box2>.Name>.name>p{
+    font-size: 15px;
+}
+.fullbox>.card>.Box2>.Name>.name>dd{
+    font-size: 15px;
+    padding-left: 40px;
+}
+.fullbox>.card>.Box2>.Name>.name1{
+    width: 20%;
+    height: 50px;
+    margin-left: 60px;
+}
+.fullbox>.card>.Box2>.Name>.name1>p{
+    font-size: 15px;
+
+}
+.fullbox>.card>.Box2>.Name>.name1>dd{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.fullbox>.card>.Box2>.Name>.name2{
+    width: 20%;
+    height: 50px;
+    margin-left: 50px;
+}
+.fullbox>.card>.Box2>.Name>.name2>p{
+    font-size: 15px;
+}
+.fullbox>.card>.Box2>.Name>.name2>dd{
+    font-size: 15px;
+    padding-left: 12px;
+}
+.fullbox>.card>.h{
+    width: 677px;
+    height: 2%;
+   padding-top: 18px;
+   margin-left: 30px;
+}
+.fullbox>.card>.Box3{
+    width: 100%;
+    height: 20%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fullbox>.card>.Box3>ul{
+    list-style-type: none;
+}
+.fullbox>.card>.Box3>ul>li{
+    text-decoration: none;
+}
+.fullbox>.card>.Box3>img{
+    width: 120px;
+    height: 120px;
+}

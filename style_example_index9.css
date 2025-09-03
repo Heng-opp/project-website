@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>.content{
+    width: 1500px;
+    height: 1000px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+    grid-template-rows:repeat(4,1fr) ;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container>.content>.box1{
+    grid-area:1/1/2/2 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box2{
+    grid-area:1/2/2/3 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box3{
+    grid-area:1/3/2/5 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box4{
+    grid-area:1/5/2/6 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box5{
+    grid-area:1/6/2/7 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box6{
+    grid-area:2/1/3/2 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box7{
+    grid-area:2/2/3/4 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box8{
+    grid-area:2/4/3/5 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box9{
+    grid-area:2/5/3/7 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box10{
+    grid-area:3/1/4/2 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box11{
+    grid-area:3/2/4/3 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box12{
+    grid-area:3/3/5/5 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box13{
+    grid-area:3/5/4/6 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box14{
+    grid-area:3/6/4/7 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box15{
+    grid-area:4/1/5/2 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box16{
+    grid-area:4/2/5/3 ;
+    background-color: purple;
+    border-radius: 15px;
+}
+.container>.content>.box17{
+    grid-area:4/5/5/7 ;
+    background-color: purple;
+    border-radius: 15px;
+}

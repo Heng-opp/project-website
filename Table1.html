@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        -tr :table row ជួរដេក
+        -th :table heading​ ក្បាលជួរដេក
+        -td :table data ទិន្ន័យជួរដេក
+
+        -border="" ទំហំប្រអប់
+        +attr:
+            -rules="all"​ សម្រាប់ឲ្យមានប្រអប់តែមួយ
+            -width
+            -align
+            -cellspacing="" សម្រាប់ឲ្យមានគម្លាត់ពីរប្រអបនីមួយៗ
+            -cellpaddin="" សម្រាប់ឲ្យអក្សរមានគម្លាត់ពីប្រអប់ក្នុង
+            -bgColor="" ពណ៏
+            -conspan="" សម្រាប់spanប្រអប់ជួរដេកពីឆ្វេងទៅស្តាំ
+            -rownspan="" សម្រាប់spanប្រអប់ជួរឈរពីលើមកក្រោម
+    -->
+    <table border="1" width=500px" align="center" cellspacing="5" cellpadding="5">
+            <tr align="center" bgColor="red">
+                <th rowspan="4">Student Data</th>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>GENDER</th>
+                <th>Date of Birth</th>
+            </tr>
+            <tr align="center" bgColor="yellow">
+                <td>102</td>
+                <td>Kim Heang</td>
+                <td>Male</td>
+                <td>27-12-2009</td>
+            </tr>
+            <tr align="center" bgColor="pink">
+                <td>103</td>
+                <td>Kim Hong</td>
+                <td>Male</td>
+                <td>27-12-2008</td>
+            </tr>
+            <tr>
+                <td colspan="3">Example1</td>
+            </tr>
+    </table>
+</body>
+</html>
