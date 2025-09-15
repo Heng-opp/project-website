@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+}
+.content>nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.content>nav>.icon>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    /* margin-right: 450px; */
+    transition: all 1s ease-in-out;
+}
+.content>nav>.icon>ul>li{
+    list-style: none;
+}
+.content>nav>.icon>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.content>nav>.icon>ul>li>a:hover{
+    color: black;
+}
+.content>nav>.search{
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+.content>nav>.search>input{
+    width: 200px;
+    height: 30px;
+}
+.content>nav>.search>button{
+    background-color: orange;
+    color: white;
+    width: 80px;
+    height: auto;
+}
+.content>.Box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 10%;
+}
+.content>.Box>.leter{
+    width: 50%;
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 80px;
+}
+.content>.Box>.leter>button{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.content>.Box>.leter>button:hover{
+    transform: scale(1.1);
+}
+.content>.Box>.login{
+    width: 40%;
+    height: 100%;
+    margin-top: 200px;
+}   
+.content>.Box>.login>.box{
+    width: 50%;
+    height: 400px;
+    /* background-color: black; */
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    margin: auto;
+    border-radius: 12px;
+    padding-top: 15px;
+}
+.content>.Box>.login>.box>input{
+    width: 250px;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-top: 20px;
+    background: transparent;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: serif;
+    color: white;
+}
+.content>.Box>.login>.box>input:focus{
+    outline: none;
+    border: 2px solid orange;
+}
+.content>.Box>.login>.box>button{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    transition: all 0.5s ease-in-out;
+}
+.content>.Box>.login>.box>button:active{
+    transform: scale(1.01);
+    background-color: blue;
+}
+.content>.Box>.login>.box>p>a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: orange;
+}
+.content>.Box>.login>.box>.logo{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.content>.Box>.login>.box>.logo>i{
+    width: 25px;
+    height: auto;
+    font-size: 25px;
+}
