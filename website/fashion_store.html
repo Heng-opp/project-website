@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl_fashion_store.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Bitcount:wght@100..900&family=Dancing+Script:wght@400..700&family=Intel+One+Mono:wght@300..700&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h2>Fashion Store.</h2>
+        <div class="menu">
+            <ul>
+                <li><a href="#h">Home</a></li>
+                <li>
+                    <div class="other">
+                        <a href="#m">Men</a>
+                        <a href="#w">Women</a>
+                    </div>
+                    <a href="#s">Shop</a>
+                </li>
+                <li><a href="#c">Contact</a></li>
+            </ul>
+        </div>
+        <div style="margin-right: 40px;margin-top: 30px;" class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </nav>
+    <section class="Nav">
+        <div class="nav">
+            <span><i class="fa-brands fa-cc-amazon-pay"></i>  Secure Payments</span>
+            <span><i class="fa-solid fa-truck"></i>  Fast Delivery</span>
+            <span><i class="fa-brands fa-buysellads"></i>  Easy Returns</span>
+        </div>
+    </section>
+    
+    <div class="full">
+        <div  id="h" class="home carousel slide" data-bs-ride="carousel">
+            <div class="letter carousel-item active">
+                <h2>Best collection</h2>
+                <h1>NEW ARRIVALS</h1>
+                <a href="#m"><button style="transition: all 0.5s ease-in-out; width: 130px;height: 40px; border-radius: 12px;font-family: sans-serif;margin-top: 5px; ">Shop now</button></a>
+            </div>
+            <div class="letter1 carousel-item">
+                <h1>Best price & offer</h1>
+                <h2 style="font-family: sans-serif; font-size: 55px;" >NEW SEASON</h2>
+                <a href="#w"><button style="transition: all 0.5s ease-in-out; width: 130px;height: 40px; border-radius: 12px;font-family: sans-serif;margin-top: 5px;">Buy now</button></a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#h" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#h" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+        
+        <div id="s" class="shop">
+            <div id="m" class="men">
+                <h1>For Men</h1>
+                <div id="sh" class="shirt"></div>
+                <div id="sh1" class="shirt"></div>
+            </div>
+            <div id="w" class="women">
+                <h1>For Women</h1>
+                <div id="wo" class="shirt"></div>
+                <div id="wo1" class="shirt"></div>
+            </div>
+        </div>
+        <div id="modal">
+            <div id="modal-content">
+                <span id="modal-close">&times;</span>
+                <img id="modal-img" src="">
+                <h3 id="modal-title"></h3>
+                <p id="modal-price" style="color:red; font-weight:bold;"></p>
+            </div>
+        </div>
+
+
+        <div class="accept">
+            <h3>We Accept</h3>
+            <div class="img">
+                <img src="https://img.freepik.com/premium-vector/beautiful-unique-logo-design-ecommerce-retail-company_1287271-11982.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                <img src="https://cdn1.iconfinder.com/data/icons/credit-card-icons/512/master_card.png" alt="">
+                <img src="https://static.vecteezy.com/system/resources/previews/065/385/650/non_2x/letter-p-credit-card-for-finance-logo-design-template-vector.jpg" alt="">
+                <img src="https://img.freepik.com/premium-vector/digital-money-logo_617585-2242.jpg" alt="">
+            </div>
+        </div>
+        <div id="c" class="contact">
+            <h3 style="font-family: sans-serif; font-size: 30px;text-align: center;">Contact Us</h3>
+            <hr size="10" width="100px" color="black" style=" margin-top: 10px; border-radius: 30px; margin-left: 707px;">
+            <div class="con">
+                <div class="con1">
+                    <p><i class="fa-solid fa-location-crosshairs"></i> sensok, terk tla, phnom penh</p>
+                    <p><i class="fa-regular fa-envelope"></i> info@fashionwebsite.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (123) 456-78909</p>
+                    <p><i class="fa-regular fa-clock"></i> Monday-Friday: 9:00 AM - 5:00 PM</p>
+                    <p><i class="fa-regular fa-clock"></i>  Saturday: 10:00 AM - 3:00PM</p>
+                    <p><i class="fa-regular fa-clock"></i>  Sunday: Closed</p>
+                    <p><i class="fa-solid fa-globe"></i> www.codingnepalweb.com</p>
+                </div>
+                <div class="con2">
+                    <input style="width: 600px;height: 50px; border-radius: 15px; padding-left: 10px;font-size: 15px;" type="text" placeholder="Your name"><br><br>
+                    <input style="width: 600px;height: 50px; border-radius: 15px; padding-left: 10px;font-size: 15px;" type="email" placeholder="Your email"><br><br>
+                    <textarea name="message" placeholder="Your message" style="width: 600px; height: 100px;border-radius: 10px; padding-top: 10px; padding-left: 10px;font-family: serif;font-size: 15px;"></textarea><br><br>
+                    <button style="width: 100px;height: 35px;border-radius: 20px;background-color: rgb(116, 31, 31); color: white;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-google"></i></a>
+        </div>
+        
+    </footer>
+</body>
+<script src="fashion_store.js"></script>
+</html>
